@@ -1,0 +1,40 @@
+body {
+  background-color: #242424;
+  font-family: 'Chivo', sans-serif; }
+
+.my-navbar {
+  background-color: #555554; }
+
+.logo {
+  width: 30%; }
+
+.logo-img-slide-1 {
+  width: 35%; }
+
+.my-text-color {
+  color: #f0c531; }
+
+.slide-text-1 {
+  position: absolute;
+  right: 150px;
+  bottom: 20%;
+  top: 20%;
+  text-align: right; }
+
+.logo-contain-slide-s1 {
+  margin: 5rem 0; }
+
+.h-bg-s1 {
+  width: 500px;
+  text-align: center;
+  display: flex;
+  align-items: center; }
+
+.h-bg-s2 {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end; }
+
+.h-text-s2 {
+  width: 500px; }
