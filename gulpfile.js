@@ -1,6 +1,8 @@
 const gulp = require('gulp');
-const sass = require('gulp-sass')
+const sass = require('gulp-sass');
+const pug = require('gulp-pug');
 const browserSync = require('browser-sync');
+
 
 const server = browserSync.create();
 
@@ -12,6 +14,13 @@ gulp.src('./dev/sass/**/*main.scss')
 .pipe(gulp.dest('./public/css/'))
 .pipe(browserSync.stream())
 );
+
+// pug
+gulp.task('pug', () =>
+gulp.src('./dev/pug/pages/**/*.pug')
+.pipe(pug())
+.pipe(gulp.dest('./public/'))
+)
 
 // html
 
@@ -29,6 +38,7 @@ gulp.task('server', () => {
     
     
     gulp.watch('./dev/sass/**/*.scss', gulp.series('sass')).on('change', server.reload);
+    gulp.watch('./dev/pug/**/*.pug', gulp.series('pug')).on('change', server.reload);
     gulp.watch('./public/**/*.html', gulp.series('html')).on('change', server.reload);
     
     
