@@ -2,3 +2,10 @@ body {
     background-color: $my-base;
     font-family: 'Chivo', sans-serif;
 }
+
+.nav-link {
+    @include tablet {
+        font-size: 1.3rem;
+    }
+}
+

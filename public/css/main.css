@@ -2,6 +2,18 @@ body {
   background-color: #242424;
   font-family: 'Chivo', sans-serif; }
 
+@media screen and (min-width: 720px) {
+  .nav-link {
+    font-size: 1.3rem; } }
+
+.title-decoration {
+  color: #f0c531;
+  font-size: 1.5rem;
+  rotate: 1.5rad; }
+
+.p-margin {
+  margin: 3rem 0; }
+
 .my-navbar {
   background-color: #555554; }
 
@@ -38,3 +50,11 @@ body {
 
 .h-text-s2 {
   width: 500px; }
+
+.input-booking {
+  background: none;
+  border: 1px 0;
+  border-color: #f0c531; }
+
+.booking-container {
+  margin: 0  2rem; }
