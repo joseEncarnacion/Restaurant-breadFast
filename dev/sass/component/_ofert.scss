@@ -1,0 +1,29 @@
+.title-medium {
+    @include tablet {
+        font-size: 1.4rem;
+
+    }
+}
+
+.p-medium {
+    @include tablet{
+        font-size: 1rem;
+
+    }
+}
+
+
+.text-ofert {
+    @include tablet {
+        width: 350px;
+
+
+    }
+}
+
+
+.ofert {
+    @include tablet {
+        margin: 2rem 0;
+    }
+}

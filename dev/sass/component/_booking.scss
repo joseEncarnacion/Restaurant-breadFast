@@ -8,14 +8,38 @@
 }
 
 .booking-container {
-    margin:0  2rem;
+    @include laptop {
+        margin:4rem 0;
+
+    }
 }
 
-// .control-form-left {
-//     margin-right: 1rem;
-   
-// }
+.booking-title-container {
+    @include laptop {
+        margin-bottom: 3rem;
+    }
+}
 
-// .control-form {
-//     margin-left: 1rem;
-// }
+.booking-title {
+    @include laptop {
+        padding-bottom: 1rem;
+    }
+}
+
+
+// column = input
+
+.control-form, .control-form-left {
+    margin: 1.5rem 0;
+}
+
+
+// submit 
+
+.sumit-container {
+    margin-top: 2rem;
+}
+
+.sutmit-button {
+    padding: 0 2.3rem;
+}

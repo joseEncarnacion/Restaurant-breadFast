@@ -1,0 +1,6 @@
+.footer {
+    @include laptop {
+        padding: 3rem 0;
+        min-height: 300px;
+    }
+}

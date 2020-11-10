@@ -1,5 +1,5 @@
 body {
-  background-color: #242424;
+  background-color: #161616;
   font-family: 'Chivo', sans-serif; }
 
 @media screen and (min-width: 720px) {
@@ -56,5 +56,47 @@ body {
   border: 1px 0;
   border-color: #f0c531; }
 
-.booking-container {
-  margin: 0  2rem; }
+@media screen and (min-width: 960px) {
+  .booking-container {
+    margin: 4rem 0; } }
+
+@media screen and (min-width: 960px) {
+  .booking-title-container {
+    margin-bottom: 3rem; } }
+
+@media screen and (min-width: 960px) {
+  .booking-title {
+    padding-bottom: 1rem; } }
+
+.control-form, .control-form-left {
+  margin: 1.5rem 0; }
+
+.sumit-container {
+  margin-top: 2rem; }
+
+.sutmit-button {
+  padding: 0 2.3rem; }
+
+@media screen and (min-width: 960px) {
+  .footer {
+    padding: 3rem 0;
+    min-height: 300px; } }
+
+@media screen and (min-width: 720px) {
+  .title-medium {
+    font-size: 1.4rem; } }
+
+@media screen and (min-width: 720px) {
+  .p-medium {
+    font-size: 1rem; } }
+
+@media screen and (min-width: 720px) {
+  .text-ofert {
+    width: 350px; } }
+
+@media screen and (min-width: 720px) {
+  .ofert {
+    margin: 2rem 0; } }
+
+.footer {
+  background-color: #161616; }

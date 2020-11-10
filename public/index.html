@@ -70,7 +70,7 @@
             <ol class="carousel-indicators">
               <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
               <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-              <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+              <!-- <li data-target="#carouselExampleCaptions" data-slide-to="2"></li> -->
             </ol>
             <div class="carousel-inner">
 
@@ -115,9 +115,46 @@
       <main>
 
         <!-- About us section -->
-        <div class="row  text-white justify-content-center h-imgBG-1">
+        <div class="row  text-white justify-content-center ">
+  
+          <!-- tablet screen -->
+          <div class="col-12 col-md-8  d-block d-lg-none text-center">
+            
+            <div>
+              <div class="d-inline-flex p-margin">
+                <i class="fab fa-ethereum title-decoration"></i>
+                <h3 class="card-title mx-3">About us</h3>
+                <i class="fab fa-ethereum title-decoration"></i>
+              </div>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit vero numquam dolorem! Tenetur nulla dolore vero sapiente eos consequatur illo eveniet ratione, pariatur nemo perspiciatis praesentium numquam sint iure aliquid.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae non repudiandae odit voluptates pariatur dignissimos, accusamus placeat voluptatibus! Corporis fuga ex harum dolorem ducimus, in et doloribus voluptatum atque itaque.
+              </p>
+
+              <div class="p-margin">
+                <h4>visit or book <span class="bnt btn-link"> Now</span></h4>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-12 d-block d-lg-none">
+
+            <div class="card bg-dark text-white border-0">
+              <img src="./images/devices-screen/tablet-info-bg.png" class="card-img" alt="the #meal">
+              <div class="card-img-overlay h-bg-s1 ml-4">
+                
+
+
+              </div>
+            </div>
+
+          </div>
+  
+  
+          <!-- laptop screen  -->
           
-          <div class="col-12 p-0">
+          <div class="col-12 p-0  d-none d-lg-block">
             <div class="card bg-dark text-white border-0">
               <img src="./images/home-main-1.jpg" class="card-img" alt="the #meal">
               <div class="card-img-overlay h-bg-s1 ml-4">
@@ -143,9 +180,15 @@
           </div>
         </div>
 
-        <!-- home offert -->
+        <!-- home info- reservation -->
         <div class="row">
-          <div class="col-12 p-0">
+
+          <!-- tablet screen -->
+            
+
+
+          <!-- laptop screen -->
+          <div class="col-12 p-0 d-none d-lg-block">
             <div class="card bg-dark text-white border-0">
               <img src="./images/main-2.jpg" class="card-img" alt="...">
               <div class="card-img-overlay h-bg-s2 mr-4">
@@ -169,7 +212,7 @@
 
 
         <!-- Book now -->
-        <div class="row  text-white justify-content-center h-imgBG-1">
+        <div class="row d-none d-lg-block text-white justify-content-center h-imgBG-1">
           
           <div class="col-12 p-0">
             <div class="card bg-dark text-white border-0">
@@ -186,10 +229,29 @@
         </div>
 
                 
-        <!-- home info -->
-        <div class="row  text-white justify-content-center h-imgBG-1">
+        <!-- home blog -->
+        <div class="row d-lg-none text-white justify-content-center h-imgBG-1">
           
-          <div class="col-12 p-0">
+          <!-- tablet screen -->
+          <div class="col-12 ">
+            <div class="card bg-dark text-white border-0">
+              <img src="./images/devices-screen/tablet-blog-section.png" class="card-img" alt="the #meal">
+              <div class="card-img-overlay px-5  ml-4 text-center">
+                <div class="">
+                  
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit vero numquam dolorem! Tenetur nulla dolore vero sapiente eos consequatur illo eveniet ratione, pariatur nemo perspiciatis praesentium numquam sint iure aliquid.
+                    
+                  </p>
+
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <!-- laptop screen -->
+          <div class="col-12 p-0 d-none d-lg-block">
             <div class="card bg-dark text-white border-0">
               <img src="./images/info-home.png" class="card-img" alt="the #meal">
               <div class="card-img-overlay px-5  ml-4 text-center">
@@ -205,6 +267,7 @@
               </div>
             </div>
           </div>
+
         </div>
         
 
@@ -212,32 +275,32 @@
 
 
 
-        <!-- Book now -->
+        <!-- Booking now section -->
 
-        <div class="container text-white">
+        <div class="container text-white ">
           <div class="row justify-content-center booking-container">
-            <div class="col-8 text-center bookin-title">
-              <h2 class="font-weight-bold">Book now</h2>
+            <div class="col-8 text-center booking-title-container ">
+              <h2 class="font-weight-bold booking-title ">Book now</h2>
               <p>Book your table now, and have a great meal!</p>
             </div>
 
               <form>
               
-                <div class="form-row">
-                  <div class="form-group col-md-6 control-form-left">              
+                <div class="form-row justify-content-md-between">
+                  <div class="form-group col-md-5 control-form-left">              
                     <label for="inputFullName">Your full name</label>
                     <input type="text" class="form-control input-booking" id="inputAddress" placeholder="Please enter your full name">               
                   </div>
                   
-                  <div class="form-group col-md-6 control-form">
+                  <div class="form-group col-md-5 control-form">
                     <label for="inputEmail">Your Email Adress</label>
                     <input type="email" class="form-control input-booking" id="inputEmail">
                   </div>
 
                 </div>
 
-                <div class="form-row ">
-                  <div class="form-group col-md-6 control-form-left"> 
+                <div class="form-row justify-content-md-between">
+                  <div class="form-group col-md-5 control-form-left"> 
                     
                     <label for="selectPeople">How Many People</label>
                     <select class="form-control input-booking" id="selectPeople">
@@ -249,27 +312,25 @@
                     </select>
                   </div>
                   
-                  <div class="form-group col-md-6 control-form">
+                  <div class="form-group col-md-5 control-form">
                     <label for="inputEmail">what Time</label>
                     <input type="time" class="form-control input-booking" id="inputTime">
                   </div>
 
-                  <div class="form-group col-md-6 control-form-left">              
+                  <div class="form-group col-md-5 control-form-left">              
                     <label for="inputdate">What is th day?</label>
                     <input type="date" class="form-control input-booking" id="inputdate" placeholder="">               
                   </div>
                   
-                  <div class="form-group col-md-6 control-form">
-                    <label for="inputEmail">Your Email Adress</label>
-                    <input type="email" class="form-control input-booking" id="inputEmail">
+                  <div class="form-group col-md-5 control-form">
+                    <label for="inputEmail">Your phone number</label>
+                    <input type="tel" class="form-control input-booking" id="inputPhone">
                   </div>
 
                 </div>
 
-                </div>
-
                 <div class="col-12 text-center sumit-container">
-                  <button type="submit" class="btn btn-warning sutmit-button ">Sign in</button>
+                  <button type="submit" class="btn btn-warning btn-lg sutmit-button ">Submit</button>
                 </div>
 
               </form>
@@ -281,20 +342,21 @@
 
 
         
-        <!-- pre- footer section-->
-        <div class="row  text-white justify-content-center h-imgBG-1">
+        <!-- pre- ofert-->
+
+        <div class="row  text-white justify-content-center ofert ">
           
-          <div class="col-12 p-0">
+          <div class="col-12 p-0 ">
             <div class="card bg-dark text-white border-0">
               <img src="./images/img-home-inf.jpg" class="card-img" alt="the #meal">
               <div class="card-img-overlay h-bg-s1 ml-4">
-                <div>
-                  <h3 class="card-title">About us</h3>
-                  <p>
+                <div class="text-ofert">
+                  <h3 class="card-title title-medium">Enjoy our best meal!</h3>
+                  <p class="p-medium">
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit vero numquam dolorem! Tenetur nulla dolore vero sapiente eos consequatur illo eveniet ratione, pariatur nemo perspiciatis praesentium numquam sint iure aliquid.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae non repudiandae odit voluptates pariatur dignissimos, accusamus placeat voluptatibus! Corporis fuga ex harum dolorem ducimus, in et doloribus voluptatum atque itaque.
-                  </p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.                   </p>
 
+                    <a href="contact.html" class="h3 btn btn-warning ">contact us now</a>
                 </div>
 
               </div>
@@ -306,9 +368,12 @@
 
       </main>
 
+
+      <!-- Footer section -->
+
       <footer>
 
-        <div class="row">
+        <div class="row footer">
 
           <div class="col-12 text-white text-center">
              <h1>L'Grand</h1>
