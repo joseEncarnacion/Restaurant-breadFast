@@ -51,6 +51,20 @@ body {
 .h-text-s2 {
   width: 500px; }
 
+.about-text {
+  font-size: 1rem;
+  text-align: justify;
+  padding: 0 1rem; }
+  @media screen and (min-width: 720px) {
+    .about-text {
+      font-size: 1.2rem;
+      text-align: justify;
+      padding: 0; } }
+
+.about-img-section {
+  padding: 0;
+  margin-bottom: 0.4rem; }
+
 .input-booking {
   background: none;
   border: 1px 0;
@@ -97,6 +111,23 @@ body {
 @media screen and (min-width: 720px) {
   .ofert {
     margin: 2rem 0; } }
+
+.title-info {
+  font-size: 1.3rem; }
+  @media screen and (min-width: 720px) {
+    .title-info {
+      font-size: 2rem; } }
+
+@media screen and (min-width: 720px) {
+  .info-text {
+    font-size: 1.2rem; } }
+
+.info-divice {
+  min-height: 350px;
+  height: 500px; }
+
+:root {
+  border: 5px solid red; }
 
 .footer {
   background-color: #161616; }
