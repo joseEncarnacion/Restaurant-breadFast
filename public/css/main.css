@@ -96,19 +96,19 @@ body {
     padding: 3rem 0;
     min-height: 300px; } }
 
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 960px) {
   .title-medium {
     font-size: 1.4rem; } }
 
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 960px) {
   .p-medium {
     font-size: 1rem; } }
 
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 960px) {
   .text-ofert {
-    width: 350px; } }
+    width: 500px; } }
 
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 960px) {
   .ofert {
     margin: 2rem 0; } }
 
@@ -125,9 +125,6 @@ body {
 .info-divice {
   min-height: 350px;
   height: 500px; }
-
-:root {
-  border: 5px solid red; }
 
 .footer {
   background-color: #161616; }

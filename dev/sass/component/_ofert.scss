@@ -1,12 +1,12 @@
 .title-medium {
-    @include tablet {
+    @include laptop {
         font-size: 1.4rem;
 
     }
 }
 
 .p-medium {
-    @include tablet{
+    @include laptop{
         font-size: 1rem;
 
     }
@@ -14,8 +14,8 @@
 
 
 .text-ofert {
-    @include tablet {
-        width: 350px;
+    @include laptop {
+        width: 500px;
 
 
     }
@@ -23,7 +23,7 @@
 
 
 .ofert {
-    @include tablet {
+    @include laptop {
         margin: 2rem 0;
     }
 }
